@@ -1,5 +1,5 @@
 "use strict";
-var customer = {
+let customer = {
     name: 'Roopa',
     age: 25,
     color: 'white'

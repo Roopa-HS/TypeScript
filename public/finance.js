@@ -1,8 +1,8 @@
 "use strict";
-var statement = "Welcome All!!!";
+const statement = "Welcome All!!!";
 console.log(statement);
-var inputs = document.querySelectorAll('input');
+const inputs = document.querySelectorAll('input');
 console.log(inputs);
-inputs.forEach(function (input) {
+inputs.forEach(input => {
     console.log(input);
 });

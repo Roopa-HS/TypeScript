@@ -1,9 +1,9 @@
 "use strict";
-var char;
-var id;
-var isMale;
-var keyt; //union types
-var key1;
+let char;
+let id;
+let isMale;
+let keyt; //union types
+let key1;
 key1 = 60;
 key1 = true;
 console.log(key1);
@@ -12,36 +12,36 @@ id = 10;
 //isLoggedIn=25;
 isMale = true;
 //in arrays
-var arr = [];
+let arr = [];
 arr.push("pavi");
 console.log(arr);
-var mixedArr = [];
+let mixedArr = [];
 // let mixedArr:string|number[]=[]; //error
 mixedArr.push(10);
 mixedArr.push("10");
 // mixedArr.push(true); //error
 //in objects
-var student1;
+let student1;
 student1 = { name: 'Roopa', age: 29, sub: 'kan' };
 console.log("Student data is" + student1);
-var student2;
+let student2;
 student2 = { name: 'Sachu', age: 50, beltcolor: "black" };
 // student2 ={name:'Sachu', age:50,beltcolor:"black", skills:"reading"};//error
 console.log(student2);
 //any type(dynamic)
-var age1 = 25;
+let age1 = 25;
 age1 = true;
 age1 = 'hello';
 age1 = { name: 'roops' };
 console.log(age1);
 //in arrays
-var array = [];
+let array = [];
 array.push('ansaka');
 array.push(199);
 array.push(true);
 console.log(array);
 //in object
-var ninja;
+let ninja;
 ninja = { name: 'Roopa', age: 40, beltcolor: "black" };
 console.log(ninja);
 ninja = { name: 10, age: "twenty", beltcolor: true };
